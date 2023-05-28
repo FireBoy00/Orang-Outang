@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/profile.css" class="css">
+    <script defer src="../js/profile.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="../assets/person-circle-outline.svg" alt="">
+        </div>
+    </header>
+
+    <div class="infos"> 
+        <div class="name">
+            <span class="tit">Name:</span>
+            <span>Actual Name</span>
+        </div>
+        <div class="rating">
+            <span class="tit">Rating:</span>
+            <span>Actual Rating</span>
+        </div>
+    </div>
+    <div class="rev">
+        <span>Leave a review to this utilizator</span>
+      </div>
+    <div class="stea">
+        <div class="star">
+          <img src="../assets/star-outline.svg" alt="" class="steaa" onclick="rate(this, 0)">
+        </div>
+        <div class="star">
+          <img src="../assets/star-outline.svg" alt="" class="steaa" onclick="rate(this, 1)">
+        </div>
+        <div class="star">
+          <img src="../assets/star-outline.svg" alt="" class="steaa" onclick="rate(this, 2)"> 
+        </div>
+        <div class="star">
+          <img src="../assets/star-outline.svg" alt="" class="steaa" onclick="rate(this, 3)">
+        </div>
+        <div class="star">
+          <img src="../assets/star-outline.svg" alt="" class="steaa" onclick="rate(this, 4)">
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <div class="btn" onclick="review()">
+            <span>Review</span>
+        </div>
+      </div>
+
+      <div class="back-btn" onclick="Android.redirectTo('main_page.html')">
+        <img src="../assets/arrow-back-outline.svg" alt="">
+    </div>
+</body>
+</html>

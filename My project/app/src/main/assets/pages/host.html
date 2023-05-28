@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/host.css">
+    <script defer src="../js/host.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <span>Create a session</span>
+    </div>
+    <div class="terrain">
+        <div class="image">
+            <img src="../assets/TereNarii.jpeg" alt="">
+        </div>
+        <div class="name-terrain">
+            <span>Nume Teren</span>
+        </div>
+    </div>
+
+    <!-- <template id="modelhost"> -->
+        <div class="host-box">
+            <div class="sel">
+                <div class="textdate">
+                    <span>Select a date and time for your session</span>
+                </div>
+                <div class="seldate">
+                    <div class="date">
+                        <span>Date:</span>
+                        <input type="date" name="datesess" id="datesess">
+                    </div>
+                    <div class="time">
+                        <span>Time:</span>
+                        <input type="time" name="datetime" id="datetime">
+                    </div>
+                </div>
+                <div class="textplayers">
+                    <span>Select number of players</span>
+                </div>
+                <div class="playersnr">
+                    <input type="number" name="players" id="players"    max="33" min="6">
+                </div>
+            </div>
+            <div class="create-btn">
+                <div onclick="host()" class="create">
+                    <span>Create</span>
+                </div>
+            </div>
+        </div>
+    <!-- </template> -->
+
+    <div class="back-btn">
+        <div class="fas fa-back" onclick="Android.redirectTo('main_page.html')">
+            <img src="../assets/arrow-back-outline.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>

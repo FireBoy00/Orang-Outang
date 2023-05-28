@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/session.css">
+    <script defer src="../js/session.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <span>Session</span>
+        </div>
+    </header>
+    <div class="infos">
+        <div class="pitch">
+            <div class="image">
+                <img src="../assets/TereNarii.jpeg">
+            </div>
+            <div class="name">
+                <span>Nume Teren</span>
+            </div>
+        </div>
+        <div class="hd">
+            <div class="host">
+                <span>Host:</span>
+                <span>Rating:</span>
+            </div>
+            <div class="date">
+                <div class="dates">
+                    <span class="tit">Date</span>
+                    <span>01/01/2023</span>
+                </div>
+                <div class="time">
+                    <span class="tit">Time</span>
+                    <span>00:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="players">
+            <span class="tit">Number of Players:</span>
+            <span>0/18</span>
+        </div>
+        <div class="playersname">
+        </div>
+        <div class="join-btn">
+            <div class="btn show" onclick="join(this)">
+                <span>Join</span>
+            </div>
+        </div>
+    </div>
+
+    <template id="utiz">
+        <div class="box" onclick="openProfile(this)">
+            <div class="profile">
+                <img src="../assets/person-circle-outline.svg" alt="">
+            </div>
+            <div class="infos1">
+                <div class="name">
+                    <span>Pletosu</span>
+                </div>
+                <div class="rating">
+                    <span>Rating: -1</span>
+                </div>
+                <span class="id">-</span>
+            </div>
+        </div>
+    </template>
+
+    <div class="back-btn">
+        <img src="../assets/arrow-back-outline.svg" alt="" onclick="Android.redirectTo('main_page.html')">
+    </div>
+</body>
+</html>

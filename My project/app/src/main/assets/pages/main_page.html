@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+<link rel="stylesheet" href="../css/main_page.css">
+<script defer src="../js/mainpage.js"></script>
+
+<title>Document</title>
+</head>
+<body>
+  <header>
+  
+    <div class="logo-container">
+      
+        <img src="../assets/TereNarii.jpeg" alt="Logo" class="logo">
+      
+      <span class="header-text">TereNarii</span>
+    </div>
+
+    <div class="icons">
+      <div class="search-container">
+        <i class="fas fa-search">
+        </i>
+        <input type="text" class="search-input">
+      </div>
+
+      <div class="profile-container" onclick="Android.signOut()">
+        <i class="icon">
+          <img src="../assets/person-circle-outline.svg" alt="profile" class="profile-icon">
+        </i>
+      </div>
+    </div>
+
+  </header>
+
+  <nav class="nav-sports">
+      <div class="football" onclick="render('Football')">
+        <img src="../assets/football-outline.svg" alt="fotbal" class="footbal-icon">
+          <!-- arata terenuri fotbal -->
+        </a>
+        <h3> Fotbal </h3>
+      </div>
+      <div class="basketball" onclick="render('Baschet')">
+        <img src="../assets/basketball-outline.svg">
+        <h3> Baschet </h3>
+      </div>
+      <div class="Tenis" onclick="render('Tennis')">
+        <img src="../assets/tennisball-outline.svg">
+        <h3>Tenis</h3>
+      </div>
+      <div class="favorite" onclick="render('Favourite')">
+        <img src="../assets/star-outline.svg">
+        <h3>Favourite</h3>
+      </div>
+      </div>
+  </nav>
+
+  <div class="terenuri"> 
+  </div>
+
+  <template id="modelteren">
+    <div class="teren" >
+        <div class="main" onclick="expandTeren(this.parentNode)">
+          <div class="info">
+            <span class="name">Name</span>
+            <span class="session">Sessions</span>
+          </div>
+          <div class="star"> 
+            <i>
+              <img src="../assets/star-outline.svg" onclick="addFav(event)">
+            </i>
+          </div>
+        </div>
+        <div class="sess">
+          <div class="moreinfo">
+            <div class="photo">
+              <img src="../assets/TereNarii.jpeg" alt="Poza teren">
+            </div>
+            <div class="info">
+                <div class="program">
+                  <span id="program"> Program:</span>
+                </div>
+                <div class="cost">
+                  <span class="cost"> Cost:</span>
+                </div>
+                <div class="button-host" onclick="openHost(this)">
+                  <span>Host</span>
+                </div>
+                <span class="id" id="id">-</span>
+              </div>
+            </div>
+        </div>
+        <div class="sessions">
+          <template id="modelsession">
+            <div class="session">
+              <div class="infos">
+                <div class="host">
+                  <span>Created by:</span>
+                </div>
+                <div class="date">
+                  <span>Date:</span>
+                  <span>Time:</span>
+                </div>
+                <span class="id">-</span>
+              </div>
+              <div class="button-join">
+                <span id="cnt" onclick="join(this)">0/18</span>
+              </div>
+            </div>
+          </template>
+        </div>
+    </div>
+  </template>
+
+</body>
+</html>

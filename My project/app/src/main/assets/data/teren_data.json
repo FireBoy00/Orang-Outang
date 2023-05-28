@@ -1,0 +1,94 @@
+{
+    "sessions": {
+        "f1": [
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            },
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            }
+        ],
+        "f2": [
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            },
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            }
+        ],
+        "f3": [
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            },
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            }
+        ],
+        "f4": [
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            },
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            }
+        ],
+        "f5": [
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            },
+            {
+                "host": "bib",
+                "date": "10.12.2021",
+                "time": "10:00",
+                "people": 0,
+                "max_people": 18,
+                "users": ["tit", "bib", "pip", "ziz"]
+            }
+        ]
+    }
+}

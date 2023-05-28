@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SportScout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">#808080</item>
+        <item name="colorOnPrimary">#ffffff</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle" parent="ThemeOverlay.Material3.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/CustomButtonBarButtonStyle</item>
+        <item name="buttonBarButtonStyle">@style/CustomButtonBarButtonStyle</item>
+        <item name="android:background">#333333</item>
+    </style>
+
+    <style name="CustomButtonBarButtonStyle" parent="Widget.AppCompat.ButtonBar.AlertDialog">
+        <item name="android:textColor">#ffffff</item> <!-- Customize your desired button text color -->
+    </style>
+</resources>

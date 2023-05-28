@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(29, 95, 95);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 136, 136);
+    height: 10%;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+header span{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(202, 202, 202);
+}
+
+span{
+    font-size: 20px;
+    color: rgb(219, 219, 219);
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.infos{
+    display: flex;
+    flex-flow: column wrap;
+    height: calc(100% - 10% - 18px);
+    width: 100%;
+}
+
+.pitch{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.pitch .image, .pitch .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+}
+
+.image img{
+    width: 220px;
+    height: 95%;
+}
+
+.pitch .name{
+    height: 15%;
+}
+
+.name span{
+    font-size: 28px;
+    color: rgb(219, 219, 219);
+}
+
+.hd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18%;
+}
+
+.hd .host, .hd .date{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.hd .host{
+    flex-flow: column;
+}
+
+.hd .host span{
+    font-size: 20px;
+    margin-left: 12px;
+    color:rgb(219, 219, 219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.date .dates, .date .time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 50%;
+    height: 100%;
+}
+
+.tit{
+    font-size: 30px;
+}
+
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 10%;
+    width: 100%;
+}
+
+.players span{
+    font-size: 35px;
+    color: rgb(49, 241, 177);
+}
+
+.players .tit{
+    font-size: 35px;
+    color: rgb(219, 219, 219);
+}
+
+.playersname{
+    background-color: transparent;
+    width: calc(100% - 2*2px);
+    height: 26.5%;
+    margin: 10px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    overflow-y: scroll;
+    border: 2px solid transparent;
+}
+
+.box{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(146, 218, 214);
+    margin: 5px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.box.currentUser {
+    background-color: rgb(46, 218, 114)
+}
+
+.box .profile{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    margin: 0 8px;
+}
+
+.box .infos1{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-flow: column;
+}
+
+.box .infos1 .name, .box .infos1 .rating{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.box .infos1 .id {
+    display: none;
+}
+
+.box .infos1 span{
+    font-size: 18px;
+    color: black;
+}
+
+.btn {
+    display: none;
+}
+.btn.show {
+    display: block;
+}
+.join-btn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-btn .btn{
+    width: fit-content;
+    height: 25px;
+    padding: 10px 22px;
+    background-color: aquamarine;
+    border-radius: 40px;
+}
+
+.join-btn .btn span{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.back-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 15px;
+    left: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+.back-btn img{
+    width: 30px;
+    height: 30px;
+}
+
+.date span:nth-child(2) {
+    font-size: 18px;
+}
+
+
+
+
+
+
+

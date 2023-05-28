@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SportScout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">#ffffff</item>
+    </style>
+
+    <style name="Theme.SportScout" parent="Base.Theme.SportScout" />
+</resources>

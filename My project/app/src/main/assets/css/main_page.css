@@ -1,0 +1,344 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  header {
+    background-color: rgb(11, 109, 109);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+  }
+
+  .logo-container{
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .logo-container .logo {
+    width: 55%; 
+    height: 90%; 
+    margin-right: 5px;
+  }
+  
+  .header-text {
+    color: white;
+    font-size: 23px;
+    font: oblique;
+    font-weight: 800;
+  }
+
+
+  header .icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 60%;
+    height: 100%;
+  }
+
+  .logo-container{
+    width: 30%;
+  }
+
+  .search-container:hover input{
+    margin-right: 50px;
+    width: 80px;
+  }
+
+  .search-container:hover{
+    width: 45%;
+  }
+
+  .search-container, .profile-container{
+    height: 15%;
+    width: 5%;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    padding-left: 5px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.8);
+    background-color: aquamarine;
+  }
+
+  .search-container{
+    margin-right: 5%;
+    transition: 0.8s;
+  }
+  
+
+  .search-container input{
+    width: 1px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+
+  .search-container .fas {
+    font-size: 20px;
+    color: black;
+  }
+
+  .profile-container .icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    
+  }
+
+  .profile-container img{
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+  
+  /* end of header */
+
+  .nav-sports{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin: 0;
+    height: fit-content;
+   }
+
+   .nav-sports div {
+    background-color: rgb(6, 82, 82);
+    border: 2px solid black;
+    width: 25%;
+    height: 75px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .nav-sports img{
+    position: relative;
+    padding: 0;
+    width: 40px;
+    filter: invert(80%);
+   }
+
+   .nav-sports h3{
+    margin: 0;
+    color: hsl(0, 0%, 80%);
+   }
+
+   /* end of navbar */
+
+  .terenuri{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(84, 143, 143);
+    padding: 0;
+    min-height: calc(100% - 90px - 79px);
+  }
+
+  .teren {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin: 7px;
+    height: 65px;
+    transition: .5s;
+    overflow: hidden;
+  }
+
+
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .teren.open{
+    height: 300px;
+  }
+
+  .info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  .teren div{
+    width: 100%;
+  } 
+
+  .teren .main{
+    height: 65px;
+  }
+
+  .info span{
+    margin-left: 10px;
+  }
+
+  .info .name{
+    font-size: 1.3em;
+    margin-bottom: 8px;
+  }
+
+  .info .session{
+    font-size: 0.8em;
+  }
+
+  .teren img{
+    width: 25px;
+    margin: 5px;
+    margin: 0;
+  }
+
+  .teren .star i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+
+  .teren .star i.addFav{
+    background-color: rgba(190, 177, 177, 0.342);
+  }
+  
+  .teren .star i img.addFav{
+    background-image: url("../assets/star.filled.svg");
+  }
+
+  .teren .star{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+  }
+
+  /* expand terrain */
+  .teren .sess{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    height: 100px;
+    border-top: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.486);
+    padding-bottom: 5px;
+  }
+  
+  .teren .sess .moreinfo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .teren .sess .photo{
+    height: 100%;
+  }
+
+  .teren .sess .photo img{
+    margin-left: 35px;
+    margin-top: 10px;
+    height: 80%;
+    width: auto;
+  }
+
+  .teren .sess .info{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    height: 100%;
+  }
+
+  .teren .sess .info .program{
+    margin-top: 15px;
+  }
+
+  .teren .sess .info .cost{
+    margin-top: 10px;
+  }
+
+  .teren .sess .info .button-host{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+    background-color: brown;
+  }
+
+  .teren .sess .info .button-host span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 9px;
+  }
+  .teren .sessions {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      overflow-y: auto;
+      height: 42%;
+  }
+  .teren .sessions .session{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    width: calc(100% - 2*15px);
+    padding: 10px 10px;
+    margin: 3px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: rgb(75, 175, 175);
+  }
+
+  .teren .sessions .session .infos{
+    width: 70%;
+    height: fit-content;
+  }
+
+  .teren .sessions .session .button-join{
+    display: flex;
+    justify-content: end;
+  }
+
+  .teren .sessions .session .button-join span{
+    display: flex;
+    justify-content: end;
+    margin-right: 2px;
+    background-color: rgb(53, 172, 53);
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    width: fit-content;
+  }
+
+  .teren .sessions .session .infos span{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .teren .sessions .session .infos span.id {
+      display: none;
+  }

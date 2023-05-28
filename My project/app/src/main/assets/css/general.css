@@ -1,0 +1,20 @@
+/* Variables */
+:root {
+    --main-color: hsl(0, 0%, 20%);
+    --second-color: hsl(0, 0%, 10%);
+    --text-color: hsl(0, 0%, 100%);
+    --unVisited-link: hsl(195, 87%, 50%);
+    --visited-link: hsl(195, 76%, 38%);
+    --hover-link: hsl(195, 80%, 50%);
+    --valid-color: hsl(195, 80%, 50%);
+}
+
+a:link {
+    color: var(--unVisited-link);
+}
+a:visited {
+    color: var(--visited-link);
+}
+a:hover {
+    color: var(--hover-link);
+}

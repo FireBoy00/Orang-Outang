@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Unbounded:wght@200&display=swap" rel="stylesheet">
+        <script defer src="../js/general.js"></script>
+        <script defer src="../js/index.js"></script>
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <title>SportScout</title>
+    </head>
+    <body>
+        <div class="middle">
+            <div class="title">
+                <span>SportScout</span>
+            </div>
+            <div class="form">
+                <form onsubmit="handleSubmit(event)">
+                    <input type="text" class="usernameInput" placeholder="Username" required disabled hidden>
+                    <input type="email" class="emailInput" placeholder="Email adress" required>
+                    <input type="password" class="passwordInput" placeholder="Password" pattern="^(?=.*[!@#$%^&amp;*()_\-+=~`[\]{}|:;'&lt;>,.?\\\/])(?=.*[A-Z])(?=.*\d).{8,}$" oninvalid="setCustomValidity(getErrorMessage(this))" oninput="setCustomValidity(getErrorMessage(this))" required>
+                    <div class="buttons">
+                        <button class="loginBtn show" type="submit" data-action="login">Login</button>
+                        <button class="createBtn" type="submit" data-action="create">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="other show" onclick="switchMode()">
+                <span>Don't have an account? </span>
+                <a href="#">Sign up</a>
+            </div>
+            <div class="other1" onclick="switchMode()">
+                <span>Have an account? </span>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </body>
+</html>
