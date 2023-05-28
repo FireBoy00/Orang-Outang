@@ -184,7 +184,7 @@ function genTerenuri(){
             var clone = temp.content.cloneNode(true);
             
             var text = clone.querySelectorAll(".info span");
-            text[0].textContent = `${teren.name} (${sport})`
+            text[0].textContent = `${teren.name}`
             text[1].textContent = teren.address;
             text[2].textContent = `Program: ${teren.program}`;
             text[3].textContent = `Price: ${teren.price}`;
