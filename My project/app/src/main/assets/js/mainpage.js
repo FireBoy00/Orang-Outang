@@ -6,52 +6,52 @@ var data = {
         "Football": [
             {
                 "id": "f1",
-                "name": "Teren #1",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "5 ron / hour",
-                "program": "12:00",
+                "name": "Sport Kiru",
+                "address": "Strada Carvunarilor 19",
+                "price": "160 ron / hour",
+                "program": "8 A.M – 11 P.M",
                 "favorite": false
             },
             {
                 "id": "f2",
-                "name": "Teren #2",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "10 ron / hour",
-                "program": "12:00",
+                "name": "Green Arena",
+                "address": "Hipodrom sud",
+                "price": "120 ron / hour",
+                "program": "8 A.M – 9:30 P.M",
                 "favorite": false
             },
             {
                 "id": "f3",
-                "name": "Teren #3",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "20 ron / hour",
-                "program": "12:00",
+                "name": "Axa Strejnic",
+                "address": "Strada sportului 6, Strejnic",
+                "price": "180 ron / hour",
+                "program": "10 A.M – 10 P.M",
                 "favorite": false
             },
             {
                 "id": "f4",
-                "name": "Teren #4",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "15 ron / hour",
-                "program": "12:00",
+                "name": "Municipal",
+                "address": "Parcul municipal Ploiesti Vest",
+                "price": "45 ron / hour",
+                "program": "9 A.M – 10 P.M",
                 "favorite": false
             },
             {
                 "id": "f5",
-                "name": "Teren #5",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "30 ron / hour",
-                "program": "12:00",
+                "name": "Complex Tenis Vest Ploiesti",
+                "address": "Strada Marasesti 478",
+                "price": "120 ron / hour",
+                "program": "7 A.M.- 2 A.M.",
                 "favorite": false
             }
         ],
         "Tennis": [
             {
                 "id": "t1",
-                "name": "Teren #1",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "5 ron / hour",
-                "program": "12:00",
+                "name": "CSS Ploiesti - Baza de Tenis",
+                "address": "CSS Ploiesti - Baza de Tenis",
+                "price": "35 ron / hour",
+                "program": "8 A.M- 10 P.M",
                 "favorite": false
             },
             {
@@ -64,26 +64,34 @@ var data = {
             },
             {
                 "id": "t3",
-                "name": "Teren #3",
-                "address": "Str. Nicaieriea, Nr. 234",
+                "name": "Sala sporturilor Olimpia",
+                "address": "Strada Alecu Russo 10",
                 "price": "20 ron / hour",
-                "program": "12:00",
+                "program": "9 A.M – 9 P.M",
                 "favorite": false
             },
             {
                 "id": "t4",
-                "name": "Teren #4",
-                "address": "Str. Nicaieriea, Nr. 234",
-                "price": "15 ron / hour",
-                "program": "12:00",
+                "name": "Tenis Vest Ploiesti",
+                "address": "Strada Marasesti 478",
+                "price": "35 ron / hour",
+                "program": "7 A.M.- 2 A.M.",
                 "favorite": false
             },
             {
                 "id": "t5",
-                "name": "Teren #5",
-                "address": "Str. Nicaieriea, Nr. 234",
+                "name": "Tenis Green Arena",
+                "address": "Bulevardul Bucuresti,Ploiesti",
                 "price": "30 ron / hour",
-                "program": "12:00",
+                "program": "8 A.M – 9:30 P.M",
+                "favorite": false
+            },
+            {
+                "id": "t6",
+                "name": "Tenis Municipal",
+                "address": "Parc Municipal Ploiesti Vest",
+                "price": "18 ron / hour",
+                "program": "9 A.M – 10 P.M",
                 "favorite": false
             }
         ],
